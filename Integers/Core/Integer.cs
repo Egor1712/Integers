@@ -137,23 +137,12 @@ namespace Integers
             for (var i = 0; i < maxLength; i++)
             {
                 var sum = (byte) (a.GetByte(i) + b.GetByte(i) + reduce);
-                if (sum >= 10)
-                {
-                    sum -= 10;
-                    reduce = 1;
-                }
-                else
-                {
-                    reduce = 0;
-                }
-
-                digits.Add(sum);
+                reduce = sum / 10;
+                digits.Add((byte) (sum % 10));
             }
 
             if (reduce > 0)
-            {
                 digits.Add((byte) reduce);
-            }
 
             return new Integer(a.Sign, digits);
         }

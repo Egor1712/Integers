@@ -46,21 +46,5 @@ namespace Integers
 
         public static Integer CalculateSecretExponent(Integer exponent, Integer phi)
             => Integer.GetModInverse(exponent, phi);
-
-        public static bool IsSimpleNumber(Integer number)
-        {
-            var two = new Integer(2);
-            if (number < two)
-                return false;
-
-            if (number == two)
-                return true;
-
-            for (var i = two; i < number; i++)
-                if ((number % i).IsZero)
-                    return false;
-
-            return true;
-        }
     }
 }

@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACrypter", "RSACrypter\RS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{7771947F-ECEA-44BB-9ED9-66A93B5F4614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAFileCrypter", "..\RSAFileCrypter\RSAFileCrypter.csproj", "{2144F1B0-05A3-4FC5-B663-ABF6BB9FCD1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAFileCrypter", "RSAFileCrypter\RSAFileCrypter.csproj", "{82CBF078-B3FD-4961-BC70-20B082004590}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +26,9 @@ Global
 		{7771947F-ECEA-44BB-9ED9-66A93B5F4614}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7771947F-ECEA-44BB-9ED9-66A93B5F4614}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7771947F-ECEA-44BB-9ED9-66A93B5F4614}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2144F1B0-05A3-4FC5-B663-ABF6BB9FCD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2144F1B0-05A3-4FC5-B663-ABF6BB9FCD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2144F1B0-05A3-4FC5-B663-ABF6BB9FCD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2144F1B0-05A3-4FC5-B663-ABF6BB9FCD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CBF078-B3FD-4961-BC70-20B082004590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CBF078-B3FD-4961-BC70-20B082004590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CBF078-B3FD-4961-BC70-20B082004590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CBF078-B3FD-4961-BC70-20B082004590}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
