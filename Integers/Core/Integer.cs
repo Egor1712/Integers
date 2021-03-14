@@ -406,8 +406,8 @@ namespace Integers
                 if (a.GetByte(i) < b.GetByte(i))
                 {
                     return -1;
-                }
-                else if (a.GetByte(i) > b.GetByte(i))
+                } 
+                if (a.GetByte(i) > b.GetByte(i))
                 {
                     return 1;
                 }
